@@ -12,13 +12,13 @@ import java.util.Scanner;
  */
 public class IngresoUsuario {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Ingresá tu nombre: ");
-        String nombre = scanner.nextLine();
+        String nombre = input.nextLine();
 
         System.out.print("Ingresá tu edad: ");
-        int edad = scanner.nextInt();
+        int edad = input.nextInt();
 
         System.out.println("Nombre: " + nombre + " | Edad: " + edad);
     }

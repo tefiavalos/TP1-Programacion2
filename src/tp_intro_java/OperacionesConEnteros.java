@@ -12,13 +12,13 @@ import java.util.Scanner;
  */
 public class OperacionesConEnteros {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Primer entero: ");
-        int a = sc.nextInt();
+        int a = Integer.parseInt(input.nextLine());
 
         System.out.print("Segundo entero: ");
-        int b = sc.nextInt();
+        int b = Integer.parseInt(input.nextLine());
 
         int suma = a + b;
         int resta = a - b;
